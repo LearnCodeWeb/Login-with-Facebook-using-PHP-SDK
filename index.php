@@ -85,8 +85,26 @@ $loginUrl = $helper->getLoginUrl('https://learncodeweb.com/demo/php/login-with-f
 	<div class="container">
 		<h1 class="text-center"><a href="https://learncodeweb.com/php/login-with-facebook-using-php-sdk/">Login with Facebook using PHP SDK</a></h1>
     	<div class="row">
-			<div class="col-sm-12 text-center p-5">
-				<a href="<?php echo htmlspecialchars($loginUrl); ?>" class="btn btn-primary btn-lg"><i class="fab fa-facebook-square"></i> Log in with Facebook!</a>
+			<div class="col-sm-12 col-md-4 m-auto">
+				<div class="border p-5 mb-5">
+					<h1 class="text-center">Login</h1>
+					<form method="post">
+						<div class="form-group">
+							<label>Login ID</label>
+							<input type="text" class="form-control" name="userId" placeholder="User ID">
+						</div>
+						<div class="form-group">
+							<label>Password</label>
+							<input type="password" class="form-control" name="userPassword" placeholder="User Password">
+						</div>
+						<div class="form-group">
+							<button type="button" class="btn btn-danger btn-block" value="Login"><i class="fa fa-sign-in-alt"></i> Login</button>
+						</div>
+						<div class="form-group">
+							<a href="<?php echo htmlspecialchars($loginUrl); ?>" class="btn btn-primary btn-block"><i class="fab fa-facebook-square"></i> Log in with Facebook!</a>
+						</div>
+					</form>
+				</div>
 			</div>
 		</div>
     </div> <!--/.container-->
