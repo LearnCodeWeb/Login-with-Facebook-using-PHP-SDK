@@ -1,4 +1,6 @@
-{
+#set all parameters as per your need.
+
+/*{
     "name": "facebook/graph-sdk",
     "description": "Facebook SDK for PHP",
     "keywords": ["facebook", "sdk"],
@@ -40,3 +42,4 @@
         }
     }
 }
+*/
